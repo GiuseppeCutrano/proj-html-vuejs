@@ -12,6 +12,39 @@
   <body>
     <div id="root">
 
+      <section class="top_header">
+        <div class="container ds_flex">
+
+          <div class="ds_flex">
+            <i class="fas fa-clock mright-8 position"></i>
+            <p>Open Hours: Mon - Sat - 9:00 - 18:00</p>
+          </div>
+
+          <div class="ds_flex">
+            <div class="phone ds_flex mleft-40">
+              <i class="fas fa-phone-alt mright-8 position"></i>
+              <p>+1 (305) 1234-5678</p>
+            </div>
+            <div class="email ds_flex mleft-40">
+              <i class="fas fa-envelope mright-8 position"></i>
+              <p>hello@example.com</p>
+            </div>
+            <div class="icon-social ds_flex">
+              <ul class="ds_flex">
+                <li v-for="e in socialMedia" class="mleft-40">
+                  <a href="#">
+                    <i :class="`fab ${e.icon}`"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
     </div>
   <!-- script.js -->
   <script src="js/main.js" charset="utf-8"></script>

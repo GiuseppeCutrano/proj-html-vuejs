@@ -9,3 +9,51 @@ body {
   font-size: 14px;
   color: #ffffff;
 }
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px;
+}
+
+
+
+.ds_flex {
+  display: flex;
+  justify-content: space-between
+}
+
+
+
+.mright-8 {
+  margin-right: 8px;
+}
+
+.mleft-40 {
+  margin-left: 40px;
+}
+
+.position {
+  position: relative;
+  top: 2px;
+}
+
+.top_header {
+  background: #122439;
+  color: #bcbebc;
+}
+
+
+
+.icon_social a i:hover{
+  
+  cursor: pointer;
+}
+.icon-social ul {
+  list-style: none;
+}
+
+.icon-social ul li a {
+  color: #bcbebc;
+}
