@@ -62,11 +62,11 @@ body {
 
 
 
-.main-header {
+.nav_header {
   position: relative;
 }
 
-.main-header .container {
+.nav_header .container {
   margin-top: 40px;
   font-size: 19px;
   line-height: 1;
@@ -80,7 +80,7 @@ body {
   width: 100px;
   cursor: pointer;
 }
-.main-header{
+.nav_header{
   background-image: url(img/bg-parallax.png);
 }
 /* NAV */
