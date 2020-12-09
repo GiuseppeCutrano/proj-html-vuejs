@@ -12,7 +12,7 @@
   <body>
     <div id="root">
 
-      <section class="top_header">
+      <header class="top_header">
         <div class="container ds_flex">
 
           <div class="ds_flex">
@@ -40,7 +40,35 @@
             </div>
           </div>
         </div>
-      </section>
+      </header>
+
+      <header class="main-header">
+        <div class="container ds_flex">
+          <!-- logo -->
+          <div class="logo">
+            <img src="img/logo.png" alt="">
+
+          </div>
+          <!-- Navbar menu -->
+          <nav class="navbar_menu ds_flex">
+            <ul class="ds_flex">
+              <li v-for="element in navList" class="mright-40">
+                <a href="#">
+                  {{ element.navElem }}
+                </a>
+              </li>
+            </ul>
+            <ul class="ds_flex">
+
+              <li>
+                <a class="btn_nav" href="#">GET IN TOUCH</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+      </header>
 
 
 

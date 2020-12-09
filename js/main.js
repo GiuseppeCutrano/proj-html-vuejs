@@ -11,7 +11,26 @@ const myapp = new Vue({
       {
         icon: 'fa-linkedin-in'
       }
-    ]
+    ],
+    navList: [
+      {
+        navElem: 'HOME'
+      },
+      {
+        navElem: 'SERVICES'
+      },
+      {
+        navElem: 'ABOUT'
+      },
+      {
+        navElem: 'PROJECTS'
+      },
+      {
+        navElem: 'RESULTS'
+      }
+    ],
+
+
 
   }
 
