@@ -164,65 +164,255 @@
        </div>
      </section>
      <!-- fine card -->
-     <section>
-       <div class=" ds_flex">
-         <div class="container ds_flex box_left">
-           <div class="card_about">
-             <h4 class="">About the network</h4>
-             <h2>
-               The Company
-             </h2>
-             <p>For 12 years have been provindig and warrantly finacial</p>
-             <div class="card_about-item f-right clearfix">
-               <i class="fas fa-sitemap"></i>
-               <h3>Tradition</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+         <section>
+           <div class=" ds_flex">
+             <div class="container ds_flex box_left">
+               <div class="card_about">
+                 <h4 class="">About the network</h4>
+                 <h2>The Company</h2>
+
+
+                 <p>For 12 years have been provindig and warrantly finacial</p>
+                 <div class="card_about-item f-right clearfix">
+                   <i class="fas fa-sitemap"></i>
+                   <h3>Tradition</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                 </div>
+                 <div class="card_about-item">
+                   <i class="fas fa-sitemap"></i>
+                   <h3>Tradition</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                 </div>
+                 <div class="card_about-item f-right clearfix ">
+                   <i class="fas fa-sitemap"></i>
+                   <h3>Tradition</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                 </div>
+                 <div class="card_about-item">
+                   <i class="fas fa-sitemap"></i>
+                   <h3>Tradition</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                 </div>
+                 <div class="btpos">
+                   <a class="btn_f" href="#">Get in touch</a>
+                   <a class="btn_f" href="#">Read more</a>
+                 </div>
+               </div>
              </div>
-             <div class="card_about-item">
-               <i class="fas fa-sitemap"></i>
-               <h3>Tradition</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-             </div>
-             <div class="card_about-item f-right clearfix ">
-               <i class="fas fa-sitemap"></i>
-               <h3>Tradition</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-             </div>
-             <div class="card_about-item">
-               <i class="fas fa-sitemap"></i>
-               <h3>Tradition</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-             </div>
-             <div class="btpos">
-               <a class="btn_f" href="#">Get in touch</a>
-               <a class="btn_f" href="#">Read more</a>
+             <div class="box_right">
+               <img :src="boxImg" alt="">
 
              </div>
            </div>
-             <!-- <h4 class="">About the network</h4>
-             <h1>The Company</h1>
-             <p>For 12 years have been provindig and warrantly finacial </p> -->
-             <!-- <div class="card_about ds_flex">
-               <div class="card-item">
-                 <i class="fas fa-sitemap"></i>
-                 <h3>Audit & Assurance</h3>
-                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+         </section>
+         <!-- section action e project -->
+         <section>
+           <div class="box_project ds_flex text_cent">
+             <div class="box_text">
+               <h4>We do more for everyone</h4>
+               <h1>Action & Projects</h1>
+               <nav class="bottom_menu ds_flex">
+                 <ul class="ds_flex">
+                   <li v-for="element in listBot" class="mright-40">
+                     <a href="#">
+                       {{ element.bottomEle }}
+                     </a>
+                   </li>
+                 </ul>
                </div>
+             </section>
+          <section class="card_proj">
 
-             </div> -->
+            <div class="container ds_flex">
+              <div class="card_ph">
+                <div class=" ds_flex">
+
+                  <div class="feedback-photo">
+                    <img src="img/project-1.jpg" alt="container-photo">
+                  </div>
+                </div>
+                <div class="feedback-text">
+                  <h3>Academic professional program</h3>
+
+                </div>
+              </div>
+              <div class="card_ph">
+                <div class="ds_flex">
+                  <div class="feedback-photo">
+                    <img src="img/project-2.jpg" alt="container-photo">
+                  </div>
+                </div>
+
+                <div class="feedback-text error">
+                  <h3>President speech at the annual meeting</h3>
+
+                </div>
+              </div>
+              <div class="card_ph">
+                <div class=" ds_flex">
+                  <div class="feedback-photo">
+                    <img src="img/project-3.jpg" alt="container-photo">
+                  </div>
+                </div>
+                <div class="feedback-text">
+                  <h3>International business trip in Shangai </h3>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+          <!-- result e number -->
+          <div class="box_text bg_scacco">
+            <h4>Wait are we doing</h4>
+            <h1>Result in number</h1>
+
+          </div>
+          <!-- sec get in touch -->
+          <section class="form_mess">
+        <div class="container ds_flex">
+          <div class="touch">
+            <h4 class="">Send a message</h4>
+            <h2>Get in touch</h2>
+            <p>We will respond to your message as soon as possible.</p>
+            <div class="form ds_flex">
+              <div class="name">
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="email">
+                <input type="email" placeholder="Email">
+              </div>
+              <div class="phone">
+                <input type="text" placeholder="Phone">
+              </div>
+              <div class="info">
+                <input type="text" placeholder="More Info">
+                <a href="#">
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </div>
+              <div class="text_area">
+                <textarea name="name" rows="4" cols="80" placeholder="Message"></textarea>
+              </div>
+              <div class="form-btn">
+                <a class="btn"href="#">Send</a>
+              </div>
+            </div>
+          </div>
+          <div class="example">
+            <h3>Example Inc.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+            <div class="phone">
+              <i class="fas fa-phone-alt"></i>
+              <p>+1 (305) 1234-5678</p>
+            </div>
+            <div class="email">
+              <i class="fas fa-envelope"></i>
+              <p>hello@example.com</p>
+            </div>
+            <div class="map">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Main Avenue, 987</p>
+            </div>
+            <div class="business-btn">
+              <a class="btn2" href="#">View map</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+
+         <section class="main-footer">
+           <div class="container ds_flex">
+             <div class="footer-brand">
+               <div class="logo">
+                 <img src="img/logo.png" alt="">
+               </div>
+               <p>A Functional HTML Template <br>
+                 for Corporate & Business.</p>
+               <div class="footer-data">
+                 <ul>
+                   <li v-for="element in footerList">
+                     <a href="#">
+                       <i :class="`fas ${element.icon}`"></i>
+                       <span>
+                       {{ element.item }}
+                       </span>
+                     </a>
+                   </li>
+                 </ul>
+               </div>
+               <div class="business-btn">
+                 <a class="btn2" href="#">get in touch</a>
+               </div>
+             </div>
+             <div class="footer-first">
+               <h3>About</h3>
+               <ul>
+                 <li v-for="element in footerListFirst">
+                   <a href="#">
+                     <i :class="`fas ${element.icon}`"></i>
+                     <span>
+                     {{ element.item }}
+                     </span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+             <div class="footer-second">
+               <h3>Services</h3>
+               <ul>
+                 <li v-for="element in footerListSecond">
+                   <a href="#">
+                     <i :class="`fas ${element.icon}`"></i>
+                     <span>
+                     {{ element.item }}
+                     </span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+             <div class="footer-third">
+               <h3>Support</h3>
+               <ul>
+                 <li v-for="element in footerListThird">
+                   <a href="#">
+                     <i :class="`fas ${element.icon}`"></i>
+                     <span>
+                     {{ element.item }}
+                     </span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </section>
+
+
+     </footer>
 
 
 
 
-         </div>
-         <div class="box_right">
-           <img :src="boxImg" alt="">
 
-         </div>
 
-       </div>
 
-     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
