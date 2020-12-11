@@ -1,6 +1,7 @@
 const myapp = new Vue({
   el: '#root',
   data:{
+    boxImg: "img/about-4.jpg",
     socialMedia: [
       {
         icon: 'fa-facebook-f'
@@ -32,6 +33,10 @@ const myapp = new Vue({
 
 
 
-  }
+
+
+
+
+  },
 
 });

@@ -17,14 +17,17 @@ body {
   padding: 15px;
 }
 
-
+/* helper */
 
 .ds_flex {
   display: flex;
   justify-content: space-between
 }
 
+.txt-a{
+  text-align: center;
 
+}
 
 .mright-8 {
   margin-right: 8px;
@@ -40,7 +43,7 @@ body {
   position: relative;
   top: 2px;
 }
-
+/* helper fine */
 .top_header {
   background: #122439;
   color: #bcbebc;
@@ -80,9 +83,9 @@ body {
   width: 100px;
   cursor: pointer;
 }
-.nav_header{
-  background-image: url(img/bg-parallax.png);
-}
+
+
+
 /* NAV */
 .navbar_menu ul {
   list-style: none;
@@ -90,7 +93,7 @@ body {
 
  .navbar_menu ul li a {
   text-decoration: none;
-  color: grey;
+  color: #504f51;
   font-size: 15px;
   font-weight: 700;
 }
@@ -99,20 +102,280 @@ body {
   color: #00a6a6;
 }
 
-
-
-
-
-
-
-.btn_nav {
+.btn_getin {
   background: #058283;
   line-height: 20px;
-  padding: 15px 20px;
+  padding: 10px 15px;
 
 }
 
-.btn_nav:hover {
+.btn_getin:hover, .btn_cent:hover {
   background: rgba(5, 130, 131, .8);
 
+}
+.btn_cent{
+  background: #058283;
+  line-height: 20px;
+  padding: 10px 10px;
+
+}
+
+.bg{
+
+  background-image: url("../img/bg-parallax.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 780px;
+}
+ .bg_text{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+.pos_btn{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin-top: 150px
+}
+
+.bg_text p{
+  color:#bcbebc;
+  font-size: 20px;
+
+}
+.bg_text a{
+  color: #038484;
+  text-decoration: none;
+  font-weight: 400;
+  margin-right: 20px;
+
+}
+
+
+
+.btn2 {
+
+  padding: 15px 20px;
+  border: 2px solid #058283;
+  border-radius: 5px;
+  line-height: 20px;
+}
+
+.btn2:hover {
+  background: #058283;
+  transition: all .2s ease-out 0s;
+}
+
+
+
+h1 {
+  font-size: 90px;
+  font-family: 'Lato', sans-serif;
+  color:#1d2023;
+  text-align: center;
+}
+
+h2 {
+  color: #21333e;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  color: #1d2023;
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+h4 {
+  font-size: 14px;
+  color: #00a6a6;
+  display: inline-block;
+  margin: 100px 0 25px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* section_card */
+.section_card {
+
+  background: #eef1ed;
+  padding-bottom: 150px;
+}
+
+.section_card .container:not(:first-child) {
+  margin-top: 30px;
+}
+.section_card h2{
+   color:#1d2023;
+}
+
+
+.section_card p {
+  margin-top: 30px;
+  font-size: 16px;
+  width: 950px;
+  color: #bcbebc;
+
+}
+
+.section_card .card_area-btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card_area-btn a {
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.section_card .container {
+  flex-wrap: wrap;
+}
+
+ .card {
+  margin-top: 30px;
+  padding: 60px 50px 60px;
+  background: #ffffff;;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform .4s;
+}
+
+ .card:hover {
+  color: #ffffff;
+  transform: translateY(-5%);
+}
+
+ .card-item {
+ color: #058283;
+}
+
+ .card-item i {
+ font-size: 50px;
+}
+
+
+
+.card-item p {
+ color: #bcbebc;
+ width: 250px;
+}
+
+.card a i {
+  color: #058283;
+  font-size: 25px;
+
+}
+
+
+/* section box */
+.box_left, .box_right{
+  width: 50%;
+  background-color: #122439;
+
+
+}
+
+ .box_right img{
+  width: 100%;
+}
+
+.box_about {
+  margin-left: 20%;
+}
+
+.box_about p{
+color:#bcbebc;
+font-size: 20px;
+margin-left: 30px;
+}
+
+.about_icon{
+  height: 400px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+.section_card .card_about-item {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card_area-btn a {
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.section_card .container {
+  flex-wrap: wrap;
+}
+
+  .card_about {
+    cursor: pointer;
+    margin-left:150px;
+    position: relative;
+
+
+}
+.card_about-item{
+  color: #058283;
+
+}
+
+
+.card_about-item i{
+  font-size: 20px;
+  margin-top: 30px
+
+}
+
+
+.card_about-item p {
+  color: #bcbebc;
+  width: 100px;
+}
+
+.f-right{
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.btpos{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin-top: 300px;
+}
+.btn_f{
+  background: #058283;
+  line-height: 20px;
+  padding: 5px 5px;
 }
