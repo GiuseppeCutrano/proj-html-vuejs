@@ -30,6 +30,21 @@ const myapp = new Vue({
         navElem: 'RESULTS'
       }
     ],
+    numList: [
+      {
+        numElem: '128'
+      },
+      {
+        numElem: '230'
+      },
+      {
+        numElem: '517'
+      },
+      {
+        numElem: '94'
+      }
+
+    ],
     listBot: [
       {
         bottomEle: 'ALL'
