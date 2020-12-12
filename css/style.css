@@ -524,8 +524,8 @@ font-size: 50px;
 .form_mess .touch .form input,
 .form_mess .touch .form textarea {
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  color: #21333e;
+  font-family: 'Lato', sans-serif;
+  color: #eef1ed;
   background: rgba(0, 0, 0, .075);
   border-radius: 4px;
   line-height: 2;
