@@ -32,19 +32,26 @@ const myapp = new Vue({
     ],
     numList: [
       {
-        numElem: '128'
+        numElem: '128',
+        spanEl: 'Certification',
+        partElem: 'img/logo-1.png'
       },
       {
-        numElem: '230'
+        numElem: '230',
+        spanEl: 'Employees',
+        partElem: 'img/logo-1.png'
       },
       {
-        numElem: '517'
+        numElem: '517',
+        spanEl: 'Customers'
       },
       {
-        numElem: '94'
+        numElem: '94',
+        spanEl: 'Country served'
       }
 
     ],
+
     listBot: [
       {
         bottomEle: 'ALL'
@@ -71,6 +78,7 @@ const myapp = new Vue({
 
       }
     ],
+    
     footerList: [
       {
         icon: 'fa-phone-alt',

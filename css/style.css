@@ -250,12 +250,12 @@ h4 {
   background: #ffffff;;
   border-radius: 5px;
   cursor: pointer;
-  transition: transform .4s;
+
 }
 
  .card:hover {
   color: #ffffff;
-  transform: translateY(-5%);
+
 }
 
  .card-item {
@@ -404,25 +404,25 @@ font-size: 30px;
 
 
 
-
-
-
-
-
-
- .card_ph {
+.card_ph {
 
   width: calc(100% / 3);
   position: relative;
 }
 
- .card_ph:hover {
+.card_ph:hover {
   cursor: pointer;
 }
 
 .card_proj .card_ph:not(:last-child) {
   margin-right: 20px;
 }
+
+
+
+
+
+
 
 
 
@@ -478,6 +478,11 @@ font-size: 50px;
   background-repeat: no-repeat;
   background-position: center;
   height: 500px
+}
+
+.course{
+  height: 150px;
+  background-color: #111117;
 }
 
 
@@ -617,7 +622,7 @@ font-size: 50px;
 
 /* FOOTER */
  .main-footer {
-  background-color: #122439;
+  background-color: #111117;
   height: 550px;
   padding: 140px 0;
 
@@ -694,9 +699,29 @@ footer .main-footer ul {
 .ds_flex_num{
   display: flex;
   justify-content: space-around;
+
 }
 
+.ds_flex_course{
+  display: flex;
+  justify-content: space-between;
 
+
+
+}
+
+.course ul li{
+  margin-top: 60px;
+  margin-left: 20px;
+
+}
 .bg_scacco a{
   text-decoration: none;
-} 
+}
+ .bg_scacco span{
+   font-size: 30px;
+
+ }
+.course ul {
+  list-style: none;
+}
